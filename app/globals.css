@@ -19,6 +19,7 @@ h3,
   font-family: "Baloo 2", sans-serif;
 }
 
+@layer components {
 .field {
   width: 100%;
   border: 2px solid #dbeafe;
@@ -87,6 +88,7 @@ h3,
 }
 .card-static:hover {
   transform: none;
+}
 }
 
 .zoom img {

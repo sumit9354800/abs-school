@@ -42,12 +42,12 @@ export default function Header() {
         }`}
       >
         <div className="max-w-7xl mx-auto px-4 sm:px-6 h-[72px] flex items-center justify-between gap-3">
-          <a href="#home" className="flex items-center gap-3 shrink-0">
-            <span className="w-11 h-11 rounded-2xl bg-blue text-white grid place-items-center fh font-extrabold text-lg shadow-md">
+          <a href="#home" className="flex items-center gap-2 sm:gap-3 min-w-0">
+            <span className="w-10 h-10 sm:w-11 sm:h-11 shrink-0 rounded-2xl bg-blue text-white grid place-items-center fh font-extrabold text-base sm:text-lg shadow-md">
               ABS
             </span>
-            <span className="leading-tight">
-              <span className="fh font-extrabold text-lg text-ink block">ABS PUBLIC SCHOOL</span>
+            <span className="leading-tight min-w-0">
+              <span className="fh font-extrabold text-base sm:text-lg text-ink block truncate">ABS PUBLIC SCHOOL</span>
               <span className="text-[11px] text-ink/60 hidden sm:block">{CFG.tagline}</span>
             </span>
           </a>
@@ -61,7 +61,7 @@ export default function Header() {
           </nav>
 
           <div className="flex items-center gap-2">
-            <a href="#admForm" className="btn btn-b !py-2.5 hidden sm:inline-flex">
+            <a href="#admForm" className="btn btn-b !py-2.5 hidden lg:inline-flex">
               Admission Enquiry
             </a>
             <button
