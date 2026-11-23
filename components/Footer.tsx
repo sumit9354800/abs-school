@@ -91,7 +91,7 @@ export default function Footer() {
 
         <p className="fh text-center text-sun text-xl mt-12">Little Steps Today, Bright Futures Tomorrow.</p>
         <p className="mt-4 pt-5 border-t border-white/10 text-center text-xs">
-          © {new Date().getFullYear()} ABS PUBLIC SCHOOL. All rights reserved.
+          © {new Date().getFullYear()} Alfa Solution. All rights reserved.
         </p>
       </div>
     </footer>
